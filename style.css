@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image: -moz-linear-gradient(top, #ffffff, #000075);
+background-image: -ms-linear-gradient(top, #ffffff, #000075);
+background-image: -o-linear-gradient(top, #ffffff, #000075);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#000075));
+background-image: -webkit-linear-gradient(top, #ffffff, #000075);
+background-image: linear-gradient(top, #ffffff, #000075);
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+}
+.feedbody{width:700px;min-height:500px;background:#fff;border:1px solid #999;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px;margin:0;padding:0;}
+.header{width:690px;text-align:center;background:#ccc;border:1px solid #999;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;margin-top:5px;padding:0;}
+.sidebarleft{background:#fff;float:left;width:220px;margin:5px;padding:10px;text-align:left;border:1px solid #999;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;font-family:'Roboto Condensed',sans-serif;font-size:14px;}
+.sidebarright{background:#fff;float:left;width:415px;margin:5px;padding:10px;text-align:left;border:1px solid #999;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;font-family:'Roboto Condensed',sans-serif;font-size:14px;}
+.footer{width:700px;height:25px;background:#ccc;border:1px solid #999;-webkit-border-radius: 0px 0px 5px 5px;border-radius: 0px 0px 5px 5px;margin:0;padding-top:10px;font-family:'Roboto Condensed',sans-serif;font-size:12px;}
